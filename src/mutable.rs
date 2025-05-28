@@ -6,9 +6,9 @@ fn references(){
 
     // mutable borrow locks the original variable 
 
-    println!("Before Manipulating through reference {}", str);
+    println!("Before Manipulating through reference {}",mutable_reference);
     mutable_reference.push_str("Sharma"); // Inserting to the original varibale using a mutable reference 
-    println!("After Manipulating by reference {}", str);
+    println!("After Manipulating by reference {}", mutable_reference);
 }
 
 
